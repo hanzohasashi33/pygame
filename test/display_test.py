@@ -401,7 +401,7 @@ class DisplayModuleTest(unittest.TestCase):
 
 
     def test_set_palette(self):
-        screen = pygame.display.set_mode((640,64),pygame.DOUBLEBUF,8)
+        screen = pygame.display.set_mode((1024,768),pygame.DOUBLEBUF,8)
         palette = []
         self.assertIsNone(pygame.display.set_palette(palette))
 
